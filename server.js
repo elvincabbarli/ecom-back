@@ -22,7 +22,10 @@ const connect = async () => {
     }
 }
 
+
+
 app.use('/api', mainRoute)
+
 app.listen(port, () => {
     connect()
     console.log('Port Isleyir')
